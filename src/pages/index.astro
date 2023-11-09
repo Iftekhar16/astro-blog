@@ -1,5 +1,5 @@
 ---
-
+import NavBar from "../components/navBar.astro";
 ---
 
 <html lang="en">
@@ -11,6 +11,9 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<navBar/>
+		<div class="about-container w-[100svw] h-[100svh] flex items-center justify-center bg-pink-100">
+            <p class="text-3xl">Home</p>
+        </div>
 	</body>
 </html>
